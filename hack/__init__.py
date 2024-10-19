@@ -616,7 +616,7 @@ class HackedHackceler8(game.venator_gui.Hackceler8):
                 self.loading_screen_timer -= 1
                 return
             self.setup_game()
-            if self.argv.extra_items:
+            if hasattr(self.argv, 'extra_items') and self.argv.extra_items:
                 for d in self.argv.extra_items:
                     if not any([i["display_name"] == d for i in self.game.items]):
                         it = game.components.items.Item(None, game.components.items.display_to_name(d), d)
