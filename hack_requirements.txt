@@ -1,0 +1,3 @@
+git+https://github.com/superfashi/pyimgui.git
+PySide6 == 6.8.0.1
+src/generator_hack
