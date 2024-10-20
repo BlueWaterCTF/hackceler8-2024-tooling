@@ -528,6 +528,7 @@ from hack.backup import GameBackup
 @inject_class
 class HackedHackceler8(game.venator_gui.Hackceler8):
     vsync = False
+    title = game.venator_gui.Hackceler8.title + ' [\U0001f4a6 Blue Water]'
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

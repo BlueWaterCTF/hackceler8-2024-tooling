@@ -248,7 +248,7 @@ class ToolboxWidget(QtWidgets.QWidget):
             WT.WindowStaysOnTopHint |
             WT.MSWindowsFixedSizeDialogHint
         )
-        self.setWindowTitle('Hacking Toolbox')
+        self.setWindowTitle('\U0001f4a6 Blue Water Hacking Toolbox')
 
     @QtCore.Slot()
     def showInit(self):

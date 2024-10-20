@@ -41,7 +41,6 @@ To install the tooling:
 ## Play/Replay
 
 - [x] Save/Load inputs
-- [x] Play/Step using <kbd>P</kbd>
 - [x] Speed up/down using <kbd>,</kbd> and <kbd>.</kbd>
 - [x] <kbd>K</kbd> toggle between Real-Time Mode and Simulation Mode (only if currently at 0 of simulation buffer)
 - [x] Press <kbd>B</kbd> to submit to the server.
